@@ -1,7 +1,7 @@
 import React from "react";
 import eyefid_logo from "../assets/img/eyefid_logo.png";
 import "./Header.css";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {

@@ -36,7 +36,11 @@ function Footer() {
             <div>
               <img src={twitter} alt="twitter" />
             </div>
-            <a href="https://instagram.com/eyefid_intelligence" target="_blank">
+            <a
+              href="https://instagram.com/eyefid_intelligence"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={instagram} alt="instagram" />
             </a>
           </div>
