@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import business from "../assets/img/business.jpg";
 import business2 from "../assets/img/business2.jpg";
+import "./Home.css";
 
 class Home extends Component {
   render() {
@@ -8,8 +9,9 @@ class Home extends Component {
       <div>
         <div className="md:flex">
           <div className="md:w-1/2 py-20 md:py-40 px-10 md:px-24 ">
-            <h1 className="font-black text-4xl md:text-6xl text-gray-900 mb-12 leading-snug">
-              A Digital Product Design Agency
+            <h1 className="font-bold text-4xl md:text-6xl text-gray-900 mb-12 leading-snug">
+              The <span className="text-blue-900">FIRST</span> data intelligence
+              business plan creation technology.
             </h1>
             <div className="bg-blue-900 text-white rounded-md p-3 text-center w-48 flex justify-between items-center shadow-xl">
               Get Started
@@ -39,7 +41,7 @@ class Home extends Component {
         <div className="my-20 md:my-40 mx-12 md:mx-24">
           <div className="md:flex justify-between">
             <div className="pr-3 mb-10">
-              <div className="flex justify-center">
+              <div className="flex">
                 <div className="bg-blue-200 p-3 rounded-lg w-12">
                   <svg
                     width="24"
@@ -57,19 +59,19 @@ class Home extends Component {
                 </div>
               </div>
               <div>
-                <h1 className="my-3 font-bold text-lg text-gray-900 text-center">
-                  Financial Planning
+                <h1 className="my-3 font-bold text-lg text-gray-900">
+                  Pitch Deck
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 text-center leading-relaxed">
-                  Our business plan is a written document describing a company's
-                  core business activities, objectives and how it plans to
-                  achieve these goals
+                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                  Using our Data Intelligence technology you can now create a
+                  world standard business plan even at zero experience. [Create
+                  your business plan using free version]
                 </p>
               </div>
             </div>
 
             <div className="pr-3 mb-10">
-              <div className="flex justify-center">
+              <div className="flex">
                 <div className="bg-green-200 p-3 rounded-lg w-12">
                   <svg
                     width="24"
@@ -90,19 +92,20 @@ class Home extends Component {
                 </div>
               </div>
               <div>
-                <h1 className="my-3 font-bold text-lg text-gray-900 text-center">
-                  Market Analysis
+                <h1 className="my-3 font-bold text-lg text-gray-900">
+                  Marketing Strategy
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 text-center leading-relaxed">
-                  Our expert team make sensible decisions about their money, to
-                  ensure they achieve their live goals. A financial plan,
-                  generally provides a roadmap for achieving your live goals
+                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                  Fix your marketing pitfalls today by letting eyefid
+                  intelligence team help you discover your potential target
+                  market using renowned strategies to position your brand as
+                  customers first choice.
                 </p>
               </div>
             </div>
 
             <div className="pr-3 mb-10">
-              <div className="flex justify-center">
+              <div className="flex">
                 <div className="bg-yellow-200 p-3 rounded-lg w-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -123,13 +126,13 @@ class Home extends Component {
                 </div>
               </div>
               <div>
-                <h1 className="my-3 font-bold text-lg text-gray-900 text-center">
-                  Business Planning
+                <h1 className="my-3 font-bold text-lg text-gray-900">
+                  Appointment with a consultant
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 text-center leading-relaxed">
-                  Our business plan is a written document describing a company's
-                  core business activities, objectives and how it plans to
-                  achieve these goals
+                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                  Our consultants are experts from your business sector who have
+                  scaled their business from Zero to 100. Speak to an expert
+                  today!
                 </p>
               </div>
             </div>
@@ -150,27 +153,28 @@ class Home extends Component {
                 Business Proposals
               </h1>
               <p className="pt-10 text-gray-500 text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Molestiae commodi ex modi repellendus aliquam, velit quibusdam
-                earum, assumenda provident laboriosam quae eius laudantium
-                temporibus aspernatur! Laudantium nam adipisci natus est!
+                Our data intelligence is a simple and easy to use technology
+                that allows you to create a business plan using your personal
+                creativity and self service to access your industry features as
+                well as explore your design skill when you choose from the many
+                templates the one that best meets your need.
               </p>
             </div>
           </div>
 
           <div className="md:flex justify-between">
             <div className="px-10 md:px-32 py-20 md:w-1/2">
-              <h1 className="text-brown-800 font-bold text-3xl font-raleway">
+              <h1 className="text-gray-900 font-bold text-3xl font-raleway">
                 Get Top Notch
               </h1>
-              <h1 className="text-brown-800 font-bold text-3xl font-raleway">
+              <h1 className="text-gray-900 font-bold text-3xl font-raleway">
                 Insights
               </h1>
               <p className="md:pt-10 text-gray-500 text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                obcaecati maiores rerum quidem repudiandae quos sed illo, eius
-                eos voluptates? Incidunt beatae tenetur dolor praesentium quo
-                ullam exercitationem id! Ab?
+                Get winning insights that places you at the fore front of your
+                competitors. Our insight gives you firsthand information on
+                customers focus. Trends and what direction the market is moving
+                in terms of emerging technology, taste and customers behaviour.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -182,13 +186,182 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="my-32">
-            <h1 className="text-center text-3xl text-brown-800 font-raleway font-bold">
-              PRICING
-            </h1>
-            <h1 className="text-center text-3xl text-brown-800 font-raleway font-bold">
-              & OTHER NECESSARY INFO
-            </h1>
+          <div className="my-32 md:my-56 mx-10" id="about">
+            <div>
+              <h1 className="text-5xl md:text-9xl font-extrabold text-gray-100 flex justify-center whitespace-nowrap tracking-wider">
+                ABOUT US
+              </h1>
+            </div>
+            <div className="-mt-12 md:-mt-24 flex justify-center">
+              <h1 className="text-lg md:text-3xl pb-1 md:pb-2 px-2 border-b-2 md:border-b-4 border-blue-900 w-28 md:w-48">
+                ABOUT US
+              </h1>
+            </div>
+
+            <div className="mx:10 md:mx-32">
+              <p className="mt-24 mb-8 text-gray-500 text-sm tracking-wide leading-relaxed">
+                Eyefid intelligence is a marketing consulting and research firm
+                that helps businesses who are at the initial phase of starting
+                their business, grow their idea, develop their product(s) and
+                build a sustainable business plan /pitch deck using our Data
+                intelligence technology.
+              </p>
+
+              <p className="my-8 text-gray-500 text-sm tracking-wide leading-relaxed">
+                Our Business Plan intelligence is designed to help you
+                understand your business industry, identify your competitors,
+                uncover their strength and weaknesses, discover your potential
+                target market and build highly competitive strategies for
+                sustainable growth using our data intelligence suggestive
+                feature.
+              </p>
+            </div>
+          </div>
+
+          <div className="md:my-56" id="insight">
+            <div>
+              <h1 className="text-5xl md:text-9xl font-extrabold text-gray-100 flex justify-center whitespace-nowrap tracking-wider">
+                INSIGHT
+              </h1>
+            </div>
+            <div className="-mt-12 md:-mt-24 flex justify-center">
+              <h1 className="text-lg md:text-3xl pb-1 md:pb-2 px-2 border-b-2 md:border-b-4 border-blue-900 w-28 md:w-40">
+                INSIGHT
+              </h1>
+            </div>
+
+            <div className="mx:10 md:mx-32">
+              <p className="mt-24 mb-8 mx-10 text-gray-500 text-sm tracking-wide leading-relaxed">
+                Eyefid insight gives you access to classified information, new
+                discovery and evolving tools that will give your business a
+                competitive edge over competitors, placing you as FIRST among
+                many others.
+              </p>
+            </div>
+          </div>
+
+          <div className="my-32 md:my-56" id="pricing">
+            <div>
+              <h1 className="text-5xl md:text-9xl font-extrabold text-gray-100 flex justify-center whitespace-nowrap tracking-wider">
+                PRICING
+              </h1>
+            </div>
+            <div className="-mt-12 md:-mt-24 flex justify-center">
+              <h1 className="text-lg md:text-3xl pb-1 md:pb-2 px-2 border-b-2 md:border-b-4 border-blue-900 w-28 md:w-40">
+                PRICING
+              </h1>
+            </div>
+
+            <div className="mx-10 md:mx-64 my-28">
+              <div className="flex justify-between">
+                <div>
+                  <h1 className="text-xl md:text-3xl">Start now</h1>
+                  <h1 className="text-xl md:text-3xl">
+                    your <span className="font-medium">free plan</span>
+                  </h1>
+                </div>
+
+                <div>
+                  <p className="text-sm font-medium">Are you a corporate?</p>
+                  <p className="text-sm text-blue-900 font-medium">
+                    contact us
+                  </p>
+                </div>
+              </div>
+
+              <div className="md:flex">
+                <div className="bg-gray-200 md:w-1/2 p-10 rounded-lg my-14 md:mr-10">
+                  <div className="flex justify-between">
+                    <h1 className="font-bold text-3xl  border-bottom-blue text-gray-900">
+                      Lite
+                    </h1>
+                    <div>
+                      <h1 className="font-medium text-right text-lg">Free</h1>
+                      <p className="text-right text-gray-500">
+                        with restrictions
+                      </p>
+                    </div>
+                  </div>
+                  <div className="py-10 text-gray-800">
+                    <h2>Plan includes: </h2>
+                    <p className="py-3">
+                      {" "}
+                      <span className="text-blue-900 font-bold pr-3">
+                        ✓
+                      </span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      {" "}
+                      <span className="text-blue-900 font-bold pr-3">
+                        ✓
+                      </span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      {" "}
+                      <span className="text-blue-900 font-bold pr-3">
+                        ✓
+                      </span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      {" "}
+                      <span className="text-blue-900 font-bold pr-3">
+                        ✓
+                      </span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+
+                    <div className="flex justify-center mt-12">
+                      <div className="bg-blue-900 text-white rounded-lg py-3 px-5">
+                        Start 14 days free trial
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-900 md:w-1/2 p-10 rounded-lg my-14 md:ml-10 text-white shadow-2xl">
+                  <div className="flex justify-between">
+                    <h1 className="font-bold text-3xl border-bottom-white">
+                      Pro
+                    </h1>
+                    <div>
+                      <h1 className="font-medium text-right text-lg tracking-wider">
+                        ₦5,000
+                      </h1>
+                      <p className="text-right text-white-100">Full Package</p>
+                    </div>
+                  </div>
+                  <div className="py-10">
+                    <h2>All of lite plus: </h2>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      lorem ipsum dolore idk home
+                    </p>
+
+                    <div className="flex justify-center mt-12">
+                      <div className="bg-white text-blue-900 rounded-lg py-3 px-5">
+                        Start 14 days of free Pro plan
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
