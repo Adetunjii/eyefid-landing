@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import business from "../assets/img/business.jpg";
 import business2 from "../assets/img/business2.jpg";
+import insight from "../assets/img/insight.jpg";
 import "./Home.css";
 
 class Home extends Component {
@@ -8,11 +9,15 @@ class Home extends Component {
     return (
       <div>
         <div className="md:flex">
-          <div className="md:w-1/2 py-20 md:py-40 px-10 md:px-24 ">
-            <h1 className="font-bold text-4xl md:text-6xl text-gray-900 mb-12 leading-snug">
+          <div className="md:w-1/2 py-40 px-10 md:pl-24 ">
+            <h1 className="font-medium text-3xl md:text-4xl text-gray-900 my-16 leading-relaxed">
               The <span className="text-blue-900">FIRST</span> data intelligence
-              business plan creation technology.
+              business plan development technology.
             </h1>
+            <p className="pb-10 text-gray-700">
+              Create a business plan with no experience using our data
+              intelligence technology
+            </p>
             <div className="bg-blue-900 text-white rounded-md p-3 text-center w-48 flex justify-between items-center shadow-xl">
               Get Started
               <svg
@@ -62,10 +67,9 @@ class Home extends Component {
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Pitch Deck
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                <p className="mt-5 pr-5 text-sm text-gray-700 leading-relaxed">
                   Using our Data Intelligence technology you can now create a
-                  world standard business plan even at zero experience. [Create
-                  your business plan using free version]
+                  world standard business plan even at zero experience.
                 </p>
               </div>
             </div>
@@ -95,7 +99,7 @@ class Home extends Component {
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Marketing Strategy
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                <p className="mt-5 pr-5 text-sm text-gray-700 leading-relaxed">
                   Fix your marketing pitfalls today by letting eyefid
                   intelligence team help you discover your potential target
                   market using renowned strategies to position your brand as
@@ -129,7 +133,7 @@ class Home extends Component {
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Appointment with a consultant
                 </h1>
-                <p className="mt-5 pr-5 text-sm text-gray-500 leading-relaxed">
+                <p className="mt-5 pr-5 text-sm text-gray-700 leading-relaxed">
                   Our consultants are experts from your business sector who have
                   scaled their business from Zero to 100. Speak to an expert
                   today!
@@ -147,12 +151,12 @@ class Home extends Component {
 
             <div className="px-10 md:px-32 py-20 md:w-1/2">
               <h1 className="text-gray-900 font-bold text-3xl ">
-                Create Astonishing
+                Create Winning
               </h1>
               <h1 className="text-gray-900 font-bold text-3xl ">
-                Business Proposals
+                Business Plans
               </h1>
-              <p className="pt-10 text-gray-500 text-sm leading-relaxed">
+              <p className="pt-10 text-gray-700 text-sm leading-relaxed">
                 Our data intelligence is a simple and easy to use technology
                 that allows you to create a business plan using your personal
                 creativity and self service to access your industry features as
@@ -165,16 +169,16 @@ class Home extends Component {
           <div className="md:flex justify-between">
             <div className="px-10 md:px-32 py-20 md:w-1/2">
               <h1 className="text-gray-900 font-bold text-3xl font-raleway">
-                Get Top Notch
+                Get Competitive
               </h1>
               <h1 className="text-gray-900 font-bold text-3xl font-raleway">
                 Insights
               </h1>
-              <p className="md:pt-10 text-gray-500 text-sm leading-relaxed">
-                Get winning insights that places you at the fore front of your
-                competitors. Our insight gives you firsthand information on
-                customers focus. Trends and what direction the market is moving
-                in terms of emerging technology, taste and customers behaviour.
+              <p className="md:pt-10 text-gray-700 text-sm leading-relaxed">
+                Eyefid insight gives you access to classified information, new
+                discovery and evolving tools that will give your business a
+                competitive edge over competitors, placing you as FIRST among
+                many others.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -186,7 +190,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="my-32 md:my-56 mx-10" id="about">
+          {/* <div className="my-32 md:my-56 mx-10" id="about">
             <div>
               <h1 className="text-5xl md:text-9xl font-extrabold text-gray-100 flex justify-center whitespace-nowrap tracking-wider">
                 ABOUT US
@@ -199,7 +203,7 @@ class Home extends Component {
             </div>
 
             <div className="mx:10 md:mx-32">
-              <p className="mt-24 mb-8 text-gray-500 text-sm tracking-wide leading-relaxed">
+              <p className="mt-24 mb-8 text-gray-700 text-sm tracking-wide leading-relaxed">
                 Eyefid intelligence is a marketing consulting and research firm
                 that helps businesses who are at the initial phase of starting
                 their business, grow their idea, develop their product(s) and
@@ -207,7 +211,7 @@ class Home extends Component {
                 intelligence technology.
               </p>
 
-              <p className="my-8 text-gray-500 text-sm tracking-wide leading-relaxed">
+              <p className="my-8 text-gray-700 text-sm tracking-wide leading-relaxed">
                 Our Business Plan intelligence is designed to help you
                 understand your business industry, identify your competitors,
                 uncover their strength and weaknesses, discover your potential
@@ -216,9 +220,9 @@ class Home extends Component {
                 feature.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="md:my-56" id="insight">
+          <div className="my-20 md:my-56" id="insight">
             <div>
               <h1 className="text-5xl md:text-9xl font-extrabold text-gray-100 flex justify-center whitespace-nowrap tracking-wider">
                 INSIGHT
@@ -230,13 +234,18 @@ class Home extends Component {
               </h1>
             </div>
 
-            <div className="mx:10 md:mx-32">
-              <p className="mt-24 mb-8 mx-10 text-gray-500 text-sm tracking-wide leading-relaxed">
-                Eyefid insight gives you access to classified information, new
-                discovery and evolving tools that will give your business a
-                competitive edge over competitors, placing you as FIRST among
-                many others.
-              </p>
+            <div className="mx:10 md:mx-32 my-32 md:flex justify-between items-center">
+              <div className="md:w-1/2">
+                <p className="mt-24 mb-8 mx-10 text-gray-700 text-xl font-medium tracking-wide leading-relaxed">
+                  Eyefid insight gives you access to classified information, new
+                  discovery and evolving tools that will give your business a
+                  competitive edge over competitors, placing you as FIRST among
+                  many others.
+                </p>
+              </div>
+              <div className="md:w-1/2">
+                <img src={insight} alt="insight" />
+              </div>
             </div>
           </div>
 
@@ -277,7 +286,7 @@ class Home extends Component {
                     </h1>
                     <div>
                       <h1 className="font-medium text-right text-lg">Free</h1>
-                      <p className="text-right text-gray-500">
+                      <p className="text-right text-gray-700">
                         with restrictions
                       </p>
                     </div>
@@ -289,28 +298,33 @@ class Home extends Component {
                       <span className="text-blue-900 font-bold pr-3">
                         ✓
                       </span>{" "}
-                      lorem ipsum dolore idk home
+                      Free business Account
                     </p>
                     <p className="py-3">
                       {" "}
                       <span className="text-blue-900 font-bold pr-3">
                         ✓
                       </span>{" "}
-                      lorem ipsum dolore idk home
+                      Free access to insight reports
                     </p>
                     <p className="py-3">
                       {" "}
                       <span className="text-blue-900 font-bold pr-3">
                         ✓
                       </span>{" "}
-                      lorem ipsum dolore idk home
+                      Watermarked version
                     </p>
                     <p className="py-3">
                       {" "}
                       <span className="text-blue-900 font-bold pr-3">
                         ✓
                       </span>{" "}
-                      lorem ipsum dolore idk home
+                      Lite version
+                    </p>
+                    <p className="py-3">
+                      {" "}
+                      <span className="text-blue-900 font-bold pr-3">✓</span> No
+                      downloads
                     </p>
 
                     <div className="flex justify-center mt-12">
@@ -337,21 +351,32 @@ class Home extends Component {
                     <h2>All of lite plus: </h2>
                     <p className="py-3">
                       <span className="text-white-900 font-medium pr-3">✓</span>{" "}
-                      lorem ipsum dolore idk home
+                      Free business account
                     </p>
                     <p className="py-3">
                       <span className="text-white-900 font-medium pr-3">✓</span>{" "}
-                      lorem ipsum dolore idk home
+                      Insight reports from your industry
                     </p>
                     <p className="py-3">
                       <span className="text-white-900 font-medium pr-3">✓</span>{" "}
-                      lorem ipsum dolore idk home
+                      Earn from affiliate programs
                     </p>
                     <p className="py-3">
                       <span className="text-white-900 font-medium pr-3">✓</span>{" "}
-                      lorem ipsum dolore idk home
+                      Access to grants
                     </p>
-
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      No watermark
+                    </p>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      HD Version
+                    </p>
+                    <p className="py-3">
+                      <span className="text-white-900 font-medium pr-3">✓</span>{" "}
+                      Downloads available
+                    </p>
                     <div className="flex justify-center mt-12">
                       <div className="bg-white text-blue-900 rounded-lg py-3 px-5">
                         Start 14 days of free Pro plan

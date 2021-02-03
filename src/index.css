@@ -10,7 +10,7 @@ body {
   content: "";
   display: block;
   margin: 0;
-  padding-bottom: 6px;
+  padding-bottom: 3px;
   width: 20px;
   border-bottom: 2px solid rgba(30, 58, 138, 1);
 }
@@ -19,7 +19,7 @@ body {
   content: "";
   display: block;
   margin: 0;
-  padding-bottom: 6px;
+  padding-bottom: 3px;
   width: 20px;
   border-bottom: 2px solid #ffffff;
 }
