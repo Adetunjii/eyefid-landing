@@ -7,7 +7,6 @@ import sweetspot from "../assets/img/sweetspot.png";
 
 class About extends Component {
   render() {
-    const imageURL = "../assets/img/business-men.jpg";
     return (
       <div className="py-20 md:py-40">
         <div className="flex my-10 md:pl-24 px-10">

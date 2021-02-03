@@ -1,7 +1,7 @@
 import React from "react";
 import eyefid_logo from "../assets/img/eyefid_logo.png";
 import "./Header.css";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const links = [
