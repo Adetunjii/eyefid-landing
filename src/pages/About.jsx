@@ -15,7 +15,7 @@ class About extends Component {
               <h1 className="font-normal text-lg py-8 text-gray-900 border-bottom-blue">
                 About
               </h1>
-              <p className="font-semibold text-xl md:text-3xl leading-snug text-gray-900">
+              <p className="font-medium text-xl md:text-4xl text-gray-900 leading-loose">
                 We are a data driven marketing consulting firm that exist to
                 make business sustainable by using intelligent data to position
                 our client's product/servies at the brim of their customer's
@@ -41,13 +41,13 @@ class About extends Component {
               <h1 className="font-normal text-lg py-8 text-gray-900 border-bottom-blue">
                 Our Goal
               </h1>
-              <p className="font-semibold text-xl md:text-3xl leading-snug text-gray-900 my-10">
+              <p className="font-medium text-xl md:text-4xl leading-snug text-gray-900 my-10">
                 We help you create competitive and winning business plan that
                 helps you effectively utilize your resources and maximize your
                 profit.
               </p>
 
-              <p className="font-semibold text-xl md:text-3xl leading-snug text-gray-900 my-10">
+              <p className="font-medium text-xl md:text-4xl leading-loose text-gray-900 my-10">
                 For us, the sustainability and success of your business is at
                 the core of our operations and we won't stop there
               </p>

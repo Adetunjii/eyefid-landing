@@ -43,10 +43,10 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="my-20 md:my-40 mx-12 md:mx-24">
+        <div className="my-20 md:my-40 mx-12 md:mx-32">
           <div className="md:flex justify-between">
-            <div className="pr-3 mb-10">
-              <div className="flex">
+            <div className="pr-3 mb-10 md:w-1/3">
+              <div className="flex justify-center">
                 <div className="bg-blue-200 p-3 rounded-lg w-12">
                   <svg
                     width="24"
@@ -63,7 +63,7 @@ class Home extends Component {
                   </svg>
                 </div>
               </div>
-              <div>
+              <div className="text-center">
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Pitch Deck
                 </h1>
@@ -74,8 +74,8 @@ class Home extends Component {
               </div>
             </div>
 
-            <div className="pr-3 mb-10">
-              <div className="flex">
+            <div className="pr-3 mb-10 md:w-1/3">
+              <div className="flex justify-center">
                 <div className="bg-green-200 p-3 rounded-lg w-12">
                   <svg
                     width="24"
@@ -95,7 +95,7 @@ class Home extends Component {
                   </svg>
                 </div>
               </div>
-              <div>
+              <div className="text-center">
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Marketing Strategy
                 </h1>
@@ -108,8 +108,8 @@ class Home extends Component {
               </div>
             </div>
 
-            <div className="pr-3 mb-10">
-              <div className="flex">
+            <div className="pr-3 mb-10 md:w-1/3">
+              <div className="flex justify-center">
                 <div className="bg-yellow-200 p-3 rounded-lg w-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ class Home extends Component {
                   </svg>
                 </div>
               </div>
-              <div>
+              <div className="text-center">
                 <h1 className="my-3 font-bold text-lg text-gray-900">
                   Appointment with a consultant
                 </h1>
@@ -156,7 +156,7 @@ class Home extends Component {
               <h1 className="text-gray-900 font-bold text-3xl ">
                 Business Plans
               </h1>
-              <p className="pt-10 text-gray-700 text-sm leading-relaxed">
+              <p className="pt-10 text-gray-700 text-lg leading-relaxed">
                 Our data intelligence is a simple and easy to use technology
                 that allows you to create a business plan using your personal
                 creativity and self service to access your industry features as
@@ -174,7 +174,7 @@ class Home extends Component {
               <h1 className="text-gray-900 font-bold text-3xl font-raleway">
                 Insights
               </h1>
-              <p className="md:pt-10 text-gray-700 text-sm leading-relaxed">
+              <p className="md:pt-10 text-gray-700 text-lg leading-relaxed">
                 Eyefid insight gives you access to classified information, new
                 discovery and evolving tools that will give your business a
                 competitive edge over competitors, placing you as FIRST among
@@ -234,7 +234,7 @@ class Home extends Component {
               </h1>
             </div>
 
-            <div className="mx:10 md:mx-32 my-32 md:flex justify-between items-center">
+            <div className="mx:10 md:mx-32 my-32 justify-center md:flex justify-between items-center">
               <div className="md:w-1/2">
                 <p className="mt-24 mb-8 mx-10 text-gray-700 text-xl font-medium tracking-wide leading-relaxed">
                   Eyefid insight gives you access to classified information, new
