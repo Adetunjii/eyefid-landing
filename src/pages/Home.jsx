@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div>
         <div className="md:flex">
-          <div className="md:w-1/2 py-40 px-10 md:pl-24 ">
+          <div className="md:w-1/2 py-20 md:py-40 px-10 md:pl-24 ">
             <h1 className="font-medium text-3xl md:text-4xl text-gray-900 my-16 leading-relaxed">
               The <span className="text-blue-900">FIRST</span> data intelligence
               business plan development technology.

@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import Insight from "./pages/Insight";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
@@ -11,6 +12,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/insight">
+            <Insight />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
