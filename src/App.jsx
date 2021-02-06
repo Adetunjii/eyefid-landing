@@ -5,6 +5,7 @@ import Insight from "./pages/Insight";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
+import Insight1 from "./pages/Insight1";
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/insight1">
+            <Insight1 />
+          </Route>
+
           <Route path="/insight">
             <Insight />
           </Route>

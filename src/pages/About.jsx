@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import "./About.css";
 import businessMen from "../assets/img/business-men.jpg";
-import creativity from "../assets/img/creativity.jpg";
-import grow from "../assets/img/grow.png";
+import creativityIcon from "../assets/img/creativity-icon.png";
+import grow from "../assets/img/grow.jpg";
 import sweetspot from "../assets/img/sweetspot.png";
+import { Helmet } from "react-helmet";
 
 class About extends Component {
   render() {
     return (
       <div className="py-20 md:py-40">
+        <Helmet>
+          <title>About | Eyefid Intelligence</title>
+        </Helmet>
         <div className="flex my-10 md:pl-24 px-10">
           <div className="md:w-3/5">
             <div className="">
@@ -55,12 +59,11 @@ class About extends Component {
           </div>
           <div></div>
         </div>
-
-        <div className="flex justify-center my-10 px-10">
+        <div className="flex justify-center my-10 px-4">
           <div className="md:flex justify-between">
             <div className="md:w-1/3 mx-10">
               <img
-                src={creativity}
+                src={creativityIcon}
                 alt="Creativity"
                 className="object-contain overflow-hidden h-64"
               />

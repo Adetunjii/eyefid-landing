@@ -2,13 +2,26 @@ import React, { Component } from "react";
 import business from "../assets/img/business.jpg";
 import business2 from "../assets/img/business2.jpg";
 import insight from "../assets/img/insight.jpg";
+import bg from "../assets/img/bg.png";
+import businessPlan from "../assets/img/business-plan.jpg";
+import { Helmet } from "react-helmet";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className="md:flex">
+        <Helmet>
+          <title>Home | Eyefid Intelligence</title>
+        </Helmet>
+        <div
+          className="md:flex my-50"
+          style={{
+            backgroundImage: `url(${bg})`,
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <div className="md:w-1/2 py-20 md:py-40 px-10 md:pl-24 ">
             <h1 className="font-medium text-3xl md:text-4xl text-gray-900 my-16 leading-relaxed">
               The <span className="text-blue-900">FIRST</span> data intelligence
@@ -38,8 +51,14 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="md:w-1/2 mx-8">
-            <div className="bg-blue-900 rounded-lg h-screen z-0"></div>
+          <div className="hidden md:block md:w-1/2 py-32 ">
+            <div className=" rounded-lg z-0 relative overflow-hidden">
+              <img
+                src={businessPlan}
+                alt="business plan"
+                className="rounded-lg h-full object-cover transition ease-in-out duration-500 transform hover:scale-105"
+              />
+            </div>
           </div>
         </div>
 
@@ -180,6 +199,27 @@ class Home extends Component {
                 competitive edge over competitors, placing you as FIRST among
                 many others.
               </p>
+              <Link
+                to="/insight"
+                className="bg-blue-900 text-white rounded-md p-3 text-center w-48 flex justify-between items-center shadow-xl my-6"
+              >
+                Read More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-arrow-right h-8"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <line x1="13" y1="18" x2="19" y2="12" />
+                  <line x1="13" y1="6" x2="19" y2="12" />
+                </svg>
+              </Link>
             </div>
             <div className="md:w-1/2">
               <img
@@ -234,7 +274,7 @@ class Home extends Component {
               </h1>
             </div>
 
-            <div className="mx:10 md:mx-32 my-32 justify-center md:flex justify-between items-center">
+            <div className="mx:10 md:mx-32 my-32 md:flex justify-between items-center">
               <div className="md:w-1/2">
                 <p className="mt-24 mb-8 mx-10 text-gray-700 text-xl font-medium tracking-wide leading-relaxed">
                   Eyefid insight gives you access to classified information, new
