@@ -194,10 +194,10 @@ class Home extends Component {
                 Insights
               </h1>
               <p className="md:pt-10 text-gray-700 text-lg leading-relaxed">
-                Eyefid insight gives you access to classified information, new
-                discovery and evolving tools that will give your business a
-                competitive edge over competitors, placing you as FIRST among
-                many others.
+                Get winning insights that places you at the fore front of your
+                competitors. Our insight gives you firsthand information on
+                customers focus. Trends and what direction the market is moving
+                in terms of emerging technology, taste and customers behaviour.
               </p>
               <Link
                 to="/insight"

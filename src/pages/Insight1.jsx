@@ -9,6 +9,7 @@ class Insight1 extends Component {
         <Helmet>
           <title>Helen Edwards on why signs .... | Eyefid Intelligence</title>
         </Helmet>
+
         <div className="md:w-3/4 px-10 md:px-48 md:border-r-2 border-blue-900">
           <h1 className="text-4xl font-extrabold leading-snug">
             Helen Edwards on why signs should be the starting point for
